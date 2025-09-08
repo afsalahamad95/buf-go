@@ -22,7 +22,7 @@ jobs:
           fetch-depth: 1
           submodules: false
       - name: Install Go
-        uses: actions/setup-go@v5
+        uses: actions/setup-go@v6
         with:
           go-version-file: protovalidate/quickstart-go/finish/go.mod
       - name: Install Java
